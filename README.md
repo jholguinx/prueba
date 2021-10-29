@@ -1,2 +1,1 @@
-# pollito.gihub.io
 # prueba
