@@ -1,67 +1,55 @@
-h1 {
-text-align: center;
-font-family: Times;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 140%;
-color: #707211;
-background: #c5c3c3;
-
+body{
+    background: #8b8a8a;
+    font-family: Times ;
+    font-size: 15px;
+    line-height: 84.69%; 
 }
 
-h2 {
-    
-    font-family: Times;
+
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 140%;
+    color: #707211;
+    background: #c5c3c3;
+}
+
+h2 {  
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 130%;
     color: #707211;
-    background: #c5c3c3;
+    background: #c5c3c3;   
+ }
+
+.Foto{
+    transform: scale(0.7,0.7);
+    display: block;
+    margin: auto;
+}
+
+.Negrita-italica{
     
-    }
-
-img.Doge{
-transform: scale(0.7,0.7);
-display: block;
-margin: auto;
-}
-
-
-li{
     font-family: Times ;
+    font-style: italic;
+    font-weight: bold;
     font-size: 15px;
-    line-height: 84.69%; 
-}
-p{
-    font-family: Times ;
-    font-size: 15px;
-    line-height: 84.69%; 
+    line-height: 84.69%;
 }
 
-
-span.Titu{
-    
-font-family: Times ;
-font-style: italic;
-font-weight: bold;
-font-size: 15px;
-line-height: 84.69%;
-}
-
-span.Fecha{
-   
+.Negrita{
     font-family: Times ;
     font-weight: bold;
     font-size: 15px;
     line-height: 84.69%;
 }
 
-footer {
+.Footer {
 
     text-align: center;
-    font-family: Times;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -69,21 +57,10 @@ footer {
     color: #ffffff;
     background: #005677;
     
-    }
+}
 
-img.Link{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 820px;
-    top: 895px;
+.alinear {
+    display: inline-flex;
+    width: 100%;
+}
     
-}
-img.Ins{
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 848px;
-  top: 895px;
-        
-}
